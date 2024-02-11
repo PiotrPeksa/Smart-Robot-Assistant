@@ -1,0 +1,6 @@
+Invoking command in '/home/ppeksa/rosDetect/build/object_detection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ppeksa/rosDetect/src/object_detection -DCMAKE_INSTALL_PREFIX=/home/ppeksa/rosDetect/install/object_detection
+Invoked command in '/home/ppeksa/rosDetect/build/object_detection' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ppeksa/rosDetect/src/object_detection -DCMAKE_INSTALL_PREFIX=/home/ppeksa/rosDetect/install/object_detection
+Invoking command in '/home/ppeksa/rosDetect/build/object_detection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ppeksa/rosDetect/build/object_detection -- -j12 -l12
+Invoked command in '/home/ppeksa/rosDetect/build/object_detection' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ppeksa/rosDetect/build/object_detection -- -j12 -l12
+Invoking command in '/home/ppeksa/rosDetect/build/object_detection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ppeksa/rosDetect/build/object_detection
+Invoked command in '/home/ppeksa/rosDetect/build/object_detection' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ppeksa/rosDetect/build/object_detection

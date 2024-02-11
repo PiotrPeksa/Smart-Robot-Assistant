@@ -1,0 +1,64 @@
+[1.451s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/ppeksa/rosDetect']
+[1.451s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/ppeksa/rosDetect'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa939576770>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fa939576320>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fa939576320>>)
+[1.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.539s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ppeksa/rosDetect'
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect) by extensions ['ignore', 'ignore_ament_install']
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect) by extension 'ignore'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect) by extension 'ignore_ament_install'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect) by extensions ['colcon_pkg']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect) by extension 'colcon_pkg'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect) by extensions ['colcon_meta']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect) by extension 'colcon_meta'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect) by extensions ['ros']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect) by extension 'ros'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect) by extensions ['cmake', 'python']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect) by extension 'cmake'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect) by extension 'python'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect) by extensions ['python_setup_py']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect) by extension 'python_setup_py'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/log) by extensions ['ignore', 'ignore_ament_install']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/log) by extension 'ignore'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/log) ignored
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src) by extensions ['ignore', 'ignore_ament_install']
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src) by extension 'ignore'
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src) by extension 'ignore_ament_install'
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src) by extensions ['colcon_pkg']
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src) by extension 'colcon_pkg'
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src) by extensions ['colcon_meta']
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src) by extension 'colcon_meta'
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src) by extensions ['ros']
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src) by extension 'ros'
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src) by extensions ['cmake', 'python']
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src) by extension 'cmake'
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src) by extension 'python'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src) by extensions ['python_setup_py']
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src) by extension 'python_setup_py'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/models) by extensions ['ignore', 'ignore_ament_install']
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/models) by extension 'ignore'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/models) by extension 'ignore_ament_install'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/models) by extensions ['colcon_pkg']
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/models) by extension 'colcon_pkg'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/models) by extensions ['colcon_meta']
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/models) by extension 'colcon_meta'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/models) by extensions ['ros']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/models) by extension 'ros'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/models) by extensions ['cmake', 'python']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/models) by extension 'cmake'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/models) by extension 'python'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/models) by extensions ['python_setup_py']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/models) by extension 'python_setup_py'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/object_detection) by extensions ['ignore', 'ignore_ament_install']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/object_detection) by extension 'ignore'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/object_detection) by extension 'ignore_ament_install'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/object_detection) by extensions ['colcon_pkg']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/object_detection) by extension 'colcon_pkg'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/object_detection) by extensions ['colcon_meta']
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/object_detection) by extension 'colcon_meta'
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/object_detection) by extensions ['ros']
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ppeksa/rosDetect/src/object_detection) by extension 'ros'
+[1.573s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ppeksa/rosDetect/src/object_detection' with type 'ros.ament_cmake' and name 'object_detection'
+[1.573s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

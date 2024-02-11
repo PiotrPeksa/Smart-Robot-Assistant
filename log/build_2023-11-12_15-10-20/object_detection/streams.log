@@ -1,0 +1,20 @@
+[0.032s] Invoking command in '/home/ppeksa/rosDetect/build/object_detection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ppeksa/rosDetect/build/object_detection -- -j12 -l12
+[0.057s] Invoked command in '/home/ppeksa/rosDetect/build/object_detection' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ppeksa/rosDetect/build/object_detection -- -j12 -l12
+[0.076s] Invoking command in '/home/ppeksa/rosDetect/build/object_detection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ppeksa/rosDetect/build/object_detection
+[0.081s] -- Install configuration: ""
+[0.081s] -- Up-to-date: /home/ppeksa/rosDetect/install/object_detection/share/ament_index/resource_index/package_run_dependencies/object_detection
+[0.081s] -- Up-to-date: /home/ppeksa/rosDetect/install/object_detection/share/ament_index/resource_index/parent_prefix_path/object_detection
+[0.081s] -- Up-to-date: /home/ppeksa/rosDetect/install/object_detection/share/object_detection/environment/ament_prefix_path.sh
+[0.081s] -- Up-to-date: /home/ppeksa/rosDetect/install/object_detection/share/object_detection/environment/ament_prefix_path.dsv
+[0.081s] -- Up-to-date: /home/ppeksa/rosDetect/install/object_detection/share/object_detection/environment/path.sh
+[0.081s] -- Up-to-date: /home/ppeksa/rosDetect/install/object_detection/share/object_detection/environment/path.dsv
+[0.081s] -- Up-to-date: /home/ppeksa/rosDetect/install/object_detection/share/object_detection/local_setup.bash
+[0.081s] -- Up-to-date: /home/ppeksa/rosDetect/install/object_detection/share/object_detection/local_setup.sh
+[0.081s] -- Up-to-date: /home/ppeksa/rosDetect/install/object_detection/share/object_detection/local_setup.zsh
+[0.081s] -- Up-to-date: /home/ppeksa/rosDetect/install/object_detection/share/object_detection/local_setup.dsv
+[0.082s] -- Up-to-date: /home/ppeksa/rosDetect/install/object_detection/share/object_detection/package.dsv
+[0.082s] -- Up-to-date: /home/ppeksa/rosDetect/install/object_detection/share/ament_index/resource_index/packages/object_detection
+[0.082s] -- Up-to-date: /home/ppeksa/rosDetect/install/object_detection/share/object_detection/cmake/object_detectionConfig.cmake
+[0.082s] -- Up-to-date: /home/ppeksa/rosDetect/install/object_detection/share/object_detection/cmake/object_detectionConfig-version.cmake
+[0.082s] -- Up-to-date: /home/ppeksa/rosDetect/install/object_detection/share/object_detection/package.xml
+[0.083s] Invoked command in '/home/ppeksa/rosDetect/build/object_detection' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ppeksa/rosDetect/build/object_detection
